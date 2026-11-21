@@ -1,0 +1,19 @@
+# Optional container setup (the recommended server setup is Node + systemd, see docs/DEPLOY.md).
+# Before the first start:  mkdir -p data && sudo chown 1000:1000 data   (the container runs as user "node")
+# Put wallets.txt inside ./data (it is read from /app/data/wallets.txt).
+services:
+  bot:
+    build: .
+    container_name: crypto-portfolio
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/portfolio.db
+      WALLETS_FILE: /app/data/wallets.txt
+    volumes:
+      - ./data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true

@@ -1,0 +1,83 @@
+{
+ "_note": "AccountDelete: DeletedNode for the sender, XRP to the destination.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450717 (captured 2026-11-20)",
+ "_account": "rLNkttBqhomaaGxpoy3tBMYM2mUV2Q1xGR",
+ "result": {
+  "account": "rLNkttBqhomaaGxpoy3tBMYM2mUV2Q1xGR",
+  "ledger_index_min": 108450717,
+  "ledger_index_max": 108450717,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "DeletedNode": {
+        "FinalFields": {
+         "Account": "rLNkttBqhomaaGxpoy3tBMYM2mUV2Q1xGR",
+         "Balance": "0",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "PreviousTxnID": "016F5954C5053A6AF4E2B6994FC57660943D74FD87AA9B4697E4AD4CCBF94021",
+         "PreviousTxnLgrSeq": 108448600,
+         "Sequence": 108448573
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "A782C2BC8C4B889A9F928388C61A8AEDCEB7449D59E41C9EBA60ABF28F6B6E09",
+        "PreviousFields": {
+         "Balance": "1050326",
+         "Sequence": 108448572
+        }
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "raV5bXp9hNe5G4YFxLDSGHExL3bVyYmwZ9",
+         "Balance": "493341457272",
+         "Domain": "6475656C2E636F6D",
+         "Flags": 131072,
+         "OwnerCount": 0,
+         "Sequence": 97562387
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "C69D615155C34B596B2E6483B1D5E3AB5A2BA251B9481743C5C2A72EC1548369",
+        "PreviousFields": {
+         "Balance": "493340606946"
+        },
+        "PreviousTxnID": "FD876343C9DF9AA5476A51BE33A1FCD678688E76734D6D728F924CC8248C35E7",
+        "PreviousTxnLgrSeq": 108450715
+       }
+      }
+     ],
+     "DeliveredAmount": "850326",
+     "TransactionIndex": 7,
+     "TransactionResult": "tesSUCCESS",
+     "delivered_amount": "850326"
+    },
+    "tx_json": {
+     "Account": "rLNkttBqhomaaGxpoy3tBMYM2mUV2Q1xGR",
+     "Destination": "raV5bXp9hNe5G4YFxLDSGHExL3bVyYmwZ9",
+     "DestinationTag": 1120368642,
+     "Fee": "200000",
+     "Flags": 2147483648,
+     "LastLedgerSequence": 108450736,
+     "Sequence": 108448572,
+     "SigningPubKey": "038FA0DF883F6811844486E8ED0E7C407A0203643B4745C6FBF15A8398CABC2FD1",
+     "TransactionType": "AccountDelete",
+     "TxnSignature": "304402201D80B46AC310A28DCFBA648F486E413F9DF828824725F11ABA7109059D72D4B002203FFC668DEB96274C09C27854594A4836E40D25E71FD58879E9DBCC9B3A6C8D86",
+     "ledger_index": 108450717,
+     "ctid": "C676D39D00070000",
+     "date": 848480831
+    },
+    "ledger_index": 108450717,
+    "hash": "1627358D6F0B7C656524C9A1CB3AA46BD6FBBB33A991EAC1FDCFFBBC570E08D1",
+    "ledger_hash": "532EF40C6D235D87BF8A21B96C9508D69242FBE666CD3CF46FD8C249877DDAFE",
+    "close_time_iso": "2026-11-20T09:07:11Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

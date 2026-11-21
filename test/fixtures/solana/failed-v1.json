@@ -1,0 +1,89 @@
+{
+ "slot": 471680318,
+ "transaction": {
+  "signatures": [
+   "bEADHFbN8noQwm555JoDfCy3Y8BC1b6Dqq3A9Q1SMsqWAK4BGfuC5LvFMHeQ8jNjwqraUtcLvF2WkPehzNmixfd"
+  ],
+  "message": {
+   "accountKeys": [
+    {
+     "pubkey": "BP8TxUroBDw97JWmc9bfg9bs8PoE6MA71SSihhBNUJR4",
+     "writable": true,
+     "signer": true,
+     "source": "transaction"
+    },
+    {
+     "pubkey": "9Bc7tyaZftQfXrEPmWxSLt7sHQMfgj65qSqQoQPBxnUN",
+     "writable": true,
+     "signer": false,
+     "source": "transaction"
+    },
+    {
+     "pubkey": "riptK81hDxhe5pW5jSzSM9iRA8azgEgLJ4dXkPtBS7j",
+     "writable": false,
+     "signer": false,
+     "source": "transaction"
+    }
+   ],
+   "recentBlockhash": "E555twwkkdEcQ9PbW39fdES2MPJrWWhwZCjsLN5UFvCe",
+   "instructions": [
+    {
+     "programId": "riptK81hDxhe5pW5jSzSM9iRA8azgEgLJ4dXkPtBS7j",
+     "accounts": [
+      "9Bc7tyaZftQfXrEPmWxSLt7sHQMfgj65qSqQoQPBxnUN",
+      "BP8TxUroBDw97JWmc9bfg9bs8PoE6MA71SSihhBNUJR4"
+     ],
+     "data": "2v9TFH2t6Qt1fpLW4vrim4H9aQtsoY5aQngyE97TiN4QJPgA7cprKhTR3ryLWWEr9Vr4eYgD8QBjsDayQX9xtnX94VMS9UDwgLEzQ45GbcAhhomJj6HU8afrBYy9HcdVwJwVXDhg1mfxSsmhsYgP66fWP8KE63B6J8zhP2yC5BXFjdpTbJKvMvGBhj4p2RjBzKZ36qDv7wrLWXMQUiVS83y9WvGDNK4wwvp1XyEhGuCa58S8jBW6xRCxHGgo8JsHS6PyvkVZmN9XF5ce3w2CovbvX2MD3ayatVuX4ihquRzro9biFuDvtYW9UFyx5n1PbjVnMUnCZpV9qPRcPpawjopHrk7M3pfqtqHywaorJVnSAmfEWSqf6DjFvvfKoRj9hYPgX5aYkwmwdpGjW7KDSBApKKehhnMxtMMXXZdUQqCGMkauLB7NxsoRHJ4AM4VvMA4LTJz4Eg5641YzRTzexy8FSq3kWiphzkXGiJtjK9BfDEgw931n1db4cV9CzBMfWyapqsVRJiumkt3zh8dTbGWFvDMPFT7Er7jmiPPSnnS3YubHGrf7ShA1BUZHXhxrxL2KAefxmPtvj8HU59E6K23JZN26uiHuaRDPgZqrJMvwgnibC51K4rtnPca1CLkSaHerouSFtAsWiKYBfg4FCvmf4aFkyu3EF9iYesAe4J8fHmnBxLhHEjcWU8kiG5AkqX2ajbVhrpUvnQZGxX",
+     "stackHeight": 1
+    }
+   ],
+   "transactionConfig": {
+    "priorityFee": 87,
+    "computeUnitLimit": 43,
+    "loadedAccountsDataSizeLimit": 300000,
+    "heapSize": null
+   }
+  }
+ },
+ "meta": {
+  "err": {
+   "InstructionError": [
+    0,
+    "InvalidAccountData"
+   ]
+  },
+  "status": {
+   "Err": {
+    "InstructionError": [
+     0,
+     "InvalidAccountData"
+    ]
+   }
+  },
+  "fee": 5087,
+  "preBalances": [
+   5449153009,
+   8017920,
+   1360441
+  ],
+  "postBalances": [
+   5449147922,
+   8017920,
+   1360441
+  ],
+  "innerInstructions": [],
+  "logMessages": [
+   "Program riptK81hDxhe5pW5jSzSM9iRA8azgEgLJ4dXkPtBS7j invoke [1]",
+   "Program riptK81hDxhe5pW5jSzSM9iRA8azgEgLJ4dXkPtBS7j consumed 31 of 43 compute units",
+   "Program riptK81hDxhe5pW5jSzSM9iRA8azgEgLJ4dXkPtBS7j failed: invalid account data for instruction"
+  ],
+  "preTokenBalances": [],
+  "postTokenBalances": [],
+  "rewards": [],
+  "computeUnitsConsumed": 31,
+  "costUnits": 1547
+ },
+ "blockTime": 1795165462,
+ "transactionIndex": 3,
+ "version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "_note": "Three real responses for bc1qx77equjgjskt0dm66yg2em2un8luv5ray8d9xe captured seconds apart while tx 7bf8fe97... was in the mempool.",
+  "blockbookBasicTrezor": {
+    "address": "bc1qx77equjgjskt0dm66yg2em2un8luv5ray8d9xe",
+    "balance": "70000",
+    "totalReceived": "718874400",
+    "totalSent": "718804400",
+    "unconfirmedTxs": 1,
+    "txs": 2766
+  },
+  "blockbookTxidsTrezor": {
+    "page": 1,
+    "totalPages": 2767,
+    "itemsOnPage": 1,
+    "address": "bc1qx77equjgjskt0dm66yg2em2un8luv5ray8d9xe",
+    "balance": "70000",
+    "totalReceived": "718874400",
+    "totalSent": "718804400",
+    "unconfirmedBalance": "71719",
+    "unconfirmedTxs": 1,
+    "unconfirmedReceiving": "71719",
+    "txs": 2766,
+    "txids": [
+      "7bf8fe97ea01d92dd2a4618a89c3b8bfad1bf1121536921451e90eb8d78293ee"
+    ]
+  },
+  "esplora": {
+    "address": "bc1qx77equjgjskt0dm66yg2em2un8luv5ray8d9xe",
+    "chain_stats": {
+      "funded_txo_count": 2383,
+      "funded_txo_sum": 718874400,
+      "spent_txo_count": 2382,
+      "spent_txo_sum": 718804400,
+      "tx_count": 2766
+    },
+    "mempool_stats": {
+      "funded_txo_count": 1,
+      "funded_txo_sum": 71719,
+      "spent_txo_count": 0,
+      "spent_txo_sum": 0,
+      "tx_count": 1
+    }
+  }
+}

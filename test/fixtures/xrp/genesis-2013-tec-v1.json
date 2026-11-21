@@ -1,0 +1,62 @@
+{
+ "_note": "2013 TrustSet tecINSUF_RESERVE_LINE (early history, API v1 shape).",
+ "_source": "https://xrplcluster.com/ account_tx api_version=1 ledger 60104 (captured 2026-11-20)",
+ "_account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh",
+ "result": {
+  "account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh",
+  "ledger_index_max": 60104,
+  "ledger_index_min": 60104,
+  "limit": 400,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh",
+         "Balance": "200999530",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "Sequence": 48
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "2B6AC232AA4C4BE41BF49D2459FA4A0347E1B543A4C92FCEE0821C0201E2E9A8",
+        "PreviousFields": {
+         "Balance": "200999540",
+         "Sequence": 47
+        },
+        "PreviousTxnID": "4EF16211BE5869C19E010B639568AA335DB9D9C7D02AC952A97E314A9C04743A",
+        "PreviousTxnLgrSeq": 12718
+       }
+      }
+     ],
+     "TransactionIndex": 0,
+     "TransactionResult": "tecINSUF_RESERVE_LINE"
+    },
+    "tx": {
+     "Account": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh",
+     "Fee": "10",
+     "Flags": 0,
+     "LimitAmount": {
+      "currency": "USD",
+      "issuer": "rD1jovjQeEpvaDwn9wKaYokkXXrqo4D23x",
+      "value": "1"
+     },
+     "Sequence": 47,
+     "SigningPubKey": "0330E7FC9D56BB25D6893BA3F317AE5BCF33B3291BD63DB32654A313222F7FD020",
+     "TransactionType": "TrustSet",
+     "TxnSignature": "3046022100AE593059E662540480276272D9BE0D06E741CDAE6EC024F0F0FCDA0586670BF5022100A675E023CD75D3AD0B8DDD6D46995803657C8910B4D348FCA9360E122D24DF6E",
+     "ctid": "C000EAC800000000",
+     "date": 410908190,
+     "hash": "F1FA613B39A3F67C3D85FB86889BAFC1915116E600F2070D42709E2CD99F3A7A",
+     "inLedger": 60104,
+     "ledger_index": 60104
+    },
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "status": "success"
+ }
+}

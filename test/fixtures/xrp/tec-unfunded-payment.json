@@ -1,0 +1,62 @@
+{
+ "_note": "Payment failed with tecUNFUNDED_PAYMENT: only the fee moves.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450593 (captured 2026-11-20)",
+ "_account": "rBadHTPHCN8LqYXJsws6ooPBWGS2KsTC9o",
+ "result": {
+  "account": "rBadHTPHCN8LqYXJsws6ooPBWGS2KsTC9o",
+  "ledger_index_min": 108450593,
+  "ledger_index_max": 108450593,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rBadHTPHCN8LqYXJsws6ooPBWGS2KsTC9o",
+         "Balance": "971431",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "Sequence": 100511402
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "BE7F7A3E6CF16CF7A52EB89C45D31F5EDE9BF9EF32B84435988C3A0E8473DB10",
+        "PreviousFields": {
+         "Balance": "971442",
+         "Sequence": 100511401
+        },
+        "PreviousTxnID": "57E58D8172F3259F5EEA237188BDC31D2F42F26EFC5770161071662101CE62F7",
+        "PreviousTxnLgrSeq": 108450593
+       }
+      }
+     ],
+     "TransactionIndex": 300,
+     "TransactionResult": "tecUNFUNDED_PAYMENT"
+    },
+    "tx_json": {
+     "Account": "rBadHTPHCN8LqYXJsws6ooPBWGS2KsTC9o",
+     "DeliverMax": "10",
+     "Destination": "rLQFZ2FFMjHoxSDWbbJneWneTVMNXjFLas",
+     "Fee": "11",
+     "Flags": 0,
+     "LastLedgerSequence": 108450691,
+     "Sequence": 100511401,
+     "SigningPubKey": "ED16A8D42AFB53B9CBA2E869327EDF90FE10DA19258FD8F32C94E11871564F5CC0",
+     "TransactionType": "Payment",
+     "TxnSignature": "01CA76A4730E7DD22F9773C959BCD3DC3F31C94F143B849D100A419CBA5CD5BDC58E434B5F96F15811F335BD2F247035081EF680F945B2C998AB897AEE402904",
+     "ledger_index": 108450593,
+     "ctid": "C676D321012C0000",
+     "date": 848480350
+    },
+    "ledger_index": 108450593,
+    "hash": "4A412EB6C03CB45B7B6E60B80AB52EB5F5EF1CCDE9F30AD9CDF2C3D0F2F70B1D",
+    "ledger_hash": "3788DC34BBD78D3D28C638A1E83EFCB3CF95B420C2EE87A9B6F4CF40443A0939",
+    "close_time_iso": "2026-11-20T08:59:10Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

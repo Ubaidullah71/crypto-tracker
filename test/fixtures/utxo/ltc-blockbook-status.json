@@ -1,0 +1,31 @@
+{
+ "blockbook": {
+  "coin": "Litecoin",
+  "host": "hz-prod-009-ax61",
+  "version": "devel",
+  "gitCommit": "1d8497b",
+  "buildTime": "2022-11-01T12:31:35+00:00",
+  "syncMode": true,
+  "initialSync": false,
+  "inSync": true,
+  "bestHeight": 3216236,
+  "lastBlockTime": "2026-11-20T09:16:45.320846641Z",
+  "inSyncMempool": true,
+  "lastMempoolTime": "2026-11-20T09:16:29.895654632Z",
+  "mempoolSize": 123,
+  "decimals": 8,
+  "dbSize": 295477625374,
+  "about": "Blockbook - blockchain indexer for Trezor wallet https://trezor.io/. Do not use for any other purpose."
+ },
+ "backend": {
+  "chain": "main",
+  "blocks": 3216236,
+  "headers": 3216236,
+  "bestBlockHash": "934b71f35cc5780c98cbf1ae2ff5855606289457bb19ad8db2588a9fe3037fe1",
+  "difficulty": "91317977.90340634",
+  "sizeOnDisk": 270601105803,
+  "version": "210502",
+  "subversion": "/LitecoinCore:0.21.5.2/",
+  "protocolVersion": "70017"
+ }
+}

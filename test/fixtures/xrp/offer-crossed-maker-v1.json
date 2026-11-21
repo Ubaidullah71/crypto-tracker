@@ -1,0 +1,153 @@
+{
+ "_note": "Same OfferCreate from the maker perspective (someone else's tx consumed our offer, we lose XRP, no fee). API v1.",
+ "_source": "https://xrplcluster.com/ account_tx api_version=1 ledger 108450839 (captured 2026-11-20)",
+ "_account": "rM7cHVPfhe9yxQNk2kDNBEQqoQmMcQGPWE",
+ "result": {
+  "account": "rM7cHVPfhe9yxQNk2kDNBEQqoQmMcQGPWE",
+  "ledger_index_max": 108450839,
+  "ledger_index_min": 108450839,
+  "limit": 400,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rwr8aKSd942vZJv8csg1sKdYs33Zco42CD",
+         "Balance": "1065946620",
+         "Flags": 0,
+         "OwnerCount": 2,
+         "Sequence": 108006528
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "774F384A156BBB90CD464E6F9EF2A6B00062E08A847ECDA9A90E5D2CA1D0673F",
+        "PreviousFields": {
+         "Balance": "1039871102",
+         "Sequence": 108006527
+        },
+        "PreviousTxnID": "D00B4B35CC5ABFF21E3D5380128BD50F09AB051AD87D3F2DDEB40A73C96CB0EA",
+        "PreviousTxnLgrSeq": 108450834
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Balance": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "-132282.3157056066"
+         },
+         "Flags": 16908288,
+         "HighLimit": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rM7cHVPfhe9yxQNk2kDNBEQqoQmMcQGPWE",
+          "value": "0"
+         },
+         "HighNode": "0",
+         "LowLimit": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+          "value": "0"
+         },
+         "LowNode": "1f"
+        },
+        "LedgerEntryType": "RippleState",
+        "LedgerIndex": "8C01D65D6973AC126DFE0AE40B043106313BD014BE5207D799EC5DA599B3B7B4",
+        "PreviousFields": {
+         "Balance": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "-132257.3359392174"
+         }
+        },
+        "PreviousTxnID": "D00B4B35CC5ABFF21E3D5380128BD50F09AB051AD87D3F2DDEB40A73C96CB0EA",
+        "PreviousTxnLgrSeq": 108450834
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "AMMID": "482DD83A80BD810EA3E5D2E8A5C3E7EDB34B220F5821206D9AB38C5A9B410894",
+         "Account": "rM7cHVPfhe9yxQNk2kDNBEQqoQmMcQGPWE",
+         "Balance": "138071370760",
+         "Flags": 26214400,
+         "OwnerCount": 1,
+         "Sequence": 96766944
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "96748FABD6C8435FB1522E2050CE6F2E12350134FFAA958F21B56ECFBCCD3AD4",
+        "PreviousFields": {
+         "Balance": "138097446290"
+        },
+        "PreviousTxnID": "D00B4B35CC5ABFF21E3D5380128BD50F09AB051AD87D3F2DDEB40A73C96CB0EA",
+        "PreviousTxnLgrSeq": 108450834
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Balance": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "1237.119332758435"
+         },
+         "Flags": 65536,
+         "HighLimit": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+          "value": "0"
+         },
+         "HighNode": "276",
+         "LowLimit": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rwr8aKSd942vZJv8csg1sKdYs33Zco42CD",
+          "value": "100000"
+         },
+         "LowNode": "0"
+        },
+        "LedgerEntryType": "RippleState",
+        "LedgerIndex": "C2D454CCF00E4520704EB9A06322C06C5BFBDF3287023466D8D9433BB5A68A6D",
+        "PreviousFields": {
+         "Balance": {
+          "currency": "5553444300000000000000000000000000000000",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "1262.09909914766"
+         }
+        },
+        "PreviousTxnID": "D00B4B35CC5ABFF21E3D5380128BD50F09AB051AD87D3F2DDEB40A73C96CB0EA",
+        "PreviousTxnLgrSeq": 108450834
+       }
+      }
+     ],
+     "TransactionIndex": 4,
+     "TransactionResult": "tesSUCCESS"
+    },
+    "tx": {
+     "Account": "rwr8aKSd942vZJv8csg1sKdYs33Zco42CD",
+     "Fee": "12",
+     "Flags": 786432,
+     "LastLedgerSequence": 108450842,
+     "Sequence": 108006527,
+     "SigningPubKey": "ED2D04DBA0F119817CD7F4DEF13AC9F26A28D6F584F8B1DB370AE8B23535FD707D",
+     "TakerGets": {
+      "currency": "5553444300000000000000000000000000000000",
+      "issuer": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+      "value": "24.9797663892247"
+     },
+     "TakerPays": "26071620",
+     "TransactionType": "OfferCreate",
+     "TxnSignature": "207CC3DE7E6F764E7280F2C79208FEC6907CFF5B4391A1E2E014ABDD064504C8CFBFEFCD009BCA70F31BD98D1DE80177D4B9CC85B781E77F62C6EEC0D0CA8800",
+     "ctid": "C676D41700040000",
+     "date": 848481301,
+     "hash": "07C2BD898AF7B007A1EFB7DEA98820A42E114493CC8779D3E84E339B047475A4",
+     "inLedger": 108450839,
+     "ledger_index": 108450839
+    },
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "status": "success"
+ }
+}

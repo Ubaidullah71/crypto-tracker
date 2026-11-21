@@ -1,0 +1,141 @@
+{
+ "_note": "TrustSet sent by the account: fee only.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450680 (captured 2026-11-20)",
+ "_account": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+ "result": {
+  "account": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+  "ledger_index_min": 108450680,
+  "ledger_index_max": 108450680,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "DeletedNode": {
+        "FinalFields": {
+         "Balance": {
+          "currency": "589",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "0"
+         },
+         "Flags": 1048576,
+         "HighLimit": {
+          "currency": "589",
+          "issuer": "rfcasq9uRbvwcmLFvc4ti3j8Qt1CYCGgHz",
+          "value": "0"
+         },
+         "HighNode": "1f3",
+         "LowLimit": {
+          "currency": "589",
+          "issuer": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+          "value": "0"
+         },
+         "LowNode": "0",
+         "PreviousTxnID": "5850A8813BD9A772D7AFC9508FA66B5250368D77463745D8E41F74F19E089F34",
+         "PreviousTxnLgrSeq": 108449213
+        },
+        "LedgerEntryType": "RippleState",
+        "LedgerIndex": "0548382F26A5F0ED460921DCFC83E012D5B8FDEE56ABA89CF93D928ABBA72221",
+        "PreviousFields": {
+         "Flags": 65536,
+         "LowLimit": {
+          "currency": "589",
+          "issuer": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+          "value": "100000000"
+         }
+        }
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+         "Balance": "1251240079",
+         "EmailHash": "9B8746318AFFE4F9A87A71BF8CFBE1D9",
+         "Flags": 0,
+         "OwnerCount": 9,
+         "Sequence": 108216912
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "0841174495886DE8B580EAF80C687B7AC46C5814EA35F2BA689E11858D1A4364",
+        "PreviousFields": {
+         "Balance": "1251240091",
+         "OwnerCount": 10,
+         "Sequence": 108216911
+        },
+        "PreviousTxnID": "B72CDF2C31269EA48933491053ED41EDCE9565B4D8AC396EC919D53A27A3D3DD",
+        "PreviousTxnLgrSeq": 108450646
+       }
+      },
+      {
+       "ModifiedNode": {
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "3A131F15881352CB5597137487C110D8A790B84C31077B8872C17A9DCB1496C4",
+        "PreviousTxnID": "C087184C2E45B7B5F2449C4E3EE3BC780307C1001358619CBBFD046E58A17711",
+        "PreviousTxnLgrSeq": 108450110
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Flags": 0,
+         "IndexNext": "0",
+         "IndexPrevious": "0",
+         "Owner": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+         "RootIndex": "5B5CB961E5A4206064A58F8EF0658103AA9F2EFE1FEE9F796BDA1D7BACF9220D"
+        },
+        "LedgerEntryType": "DirectoryNode",
+        "LedgerIndex": "5B5CB961E5A4206064A58F8EF0658103AA9F2EFE1FEE9F796BDA1D7BACF9220D",
+        "PreviousTxnID": "5FEFAD2FA8BF77043536109F758CD044A533A97EC93F7A784927C7B09ECB3A57",
+        "PreviousTxnLgrSeq": 108450547
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Flags": 0,
+         "IndexNext": "1f4",
+         "IndexPrevious": "1ee",
+         "Owner": "rfcasq9uRbvwcmLFvc4ti3j8Qt1CYCGgHz",
+         "RootIndex": "93FFC64C06CCCAB75DFA6FD9F4939EE7B63EDD6B0D293F02382925464A6312FE"
+        },
+        "LedgerEntryType": "DirectoryNode",
+        "LedgerIndex": "6241C78D81244D9C612E224BBBACA4CD844C9FD446E47E5A4B6149E70776AEDA",
+        "PreviousTxnID": "F00CB6C87C76702A065782B854C1D13DF057443BFDDB694EF9029D616509C825",
+        "PreviousTxnLgrSeq": 108449603
+       }
+      }
+     ],
+     "TransactionIndex": 21,
+     "TransactionResult": "tesSUCCESS"
+    },
+    "tx_json": {
+     "Account": "rputin6xDmCdtC6oLsXYUtLpzfSmYrvqQJ",
+     "Fee": "12",
+     "Flags": 131072,
+     "LastLedgerSequence": 108450708,
+     "LimitAmount": {
+      "currency": "589",
+      "issuer": "rfcasq9uRbvwcmLFvc4ti3j8Qt1CYCGgHz",
+      "value": "0"
+     },
+     "Sequence": 108216911,
+     "SigningPubKey": "EDB5854CDC86738E94C473D8F002216E163429939A7ECCF3584367E84C71ED60E3",
+     "TransactionType": "TrustSet",
+     "TxnSignature": "262CF443DE01AEAAE1EF75A95E3E3627F998E27692CCA9175EC3D1822233846315016426FBFB2621E98B80725EEF4A5668D4FB7243F03C02E796D3179F81B609",
+     "ledger_index": 108450680,
+     "ctid": "C676D37800150000",
+     "date": 848480690
+    },
+    "ledger_index": 108450680,
+    "hash": "1792E427B5DD36509B69922AF999FACE8E254312A4C9D43C98B15C3985A7E1AD",
+    "ledger_hash": "C529AE9354B5DAC60C40B03238788018305B5F65B3B43020A96192686716C770",
+    "close_time_iso": "2026-11-20T09:04:50Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

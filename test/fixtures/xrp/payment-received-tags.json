@@ -1,0 +1,83 @@
+{
+ "_note": "XRP Payment received with DestinationTag and SourceTag (destination perspective).",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450596 (captured 2026-11-20)",
+ "_account": "rnqZnvzoJjdg7n1P9pmumJ7FQ5wxNH3gYC",
+ "result": {
+  "account": "rnqZnvzoJjdg7n1P9pmumJ7FQ5wxNH3gYC",
+  "ledger_index_min": 108450596,
+  "ledger_index_max": 108450596,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rnqZnvzoJjdg7n1P9pmumJ7FQ5wxNH3gYC",
+         "Balance": "4642746318872",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "Sequence": 1277795
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "43000F3A06267991E22D4680E528A474DE7E8735D42E7E6DE8A60135B1DD50F8",
+        "PreviousFields": {
+         "Balance": "4642714656246"
+        },
+        "PreviousTxnID": "CB9E2C0161322E794B6B09B4963D7022BA774FF16EEB8976B7EFBCD517C4FFC7",
+        "PreviousTxnLgrSeq": 108450594
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rHYVFond7rjFknLvK3gAkKYxC67KZTEqFY",
+         "Balance": "1000000",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "Sequence": 107204484
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "66B93B5F5F5BAA46CFAB453385E6F039AA3C7D013C56B2154B6AF2FAA4684037",
+        "PreviousFields": {
+         "Balance": "32672694",
+         "Sequence": 107204483
+        },
+        "PreviousTxnID": "DC990A27F28C053EFDCA7E69BAD888AF37F240E0A54B63228FA6DE6DB8FA8B35",
+        "PreviousTxnLgrSeq": 108450568
+       }
+      }
+     ],
+     "TransactionIndex": 44,
+     "TransactionResult": "tesSUCCESS",
+     "delivered_amount": "31662626"
+    },
+    "tx_json": {
+     "Account": "rHYVFond7rjFknLvK3gAkKYxC67KZTEqFY",
+     "DeliverMax": "31662626",
+     "Destination": "rnqZnvzoJjdg7n1P9pmumJ7FQ5wxNH3gYC",
+     "DestinationTag": 89108507,
+     "Fee": "10068",
+     "Flags": 0,
+     "LastLedgerSequence": 215655074,
+     "Sequence": 107204483,
+     "SigningPubKey": "03196C900D532237983CD7F6333A5AD530B59156AD16A542500AADC9A1AAD915C4",
+     "SourceTag": 1741383633,
+     "TransactionType": "Payment",
+     "TxnSignature": "304402206957B812FBEE21CF5AD15F207DFEFD2802D1BB2CA8DD1E1B1942DC2B740B3FDB0220197D8C2A08F69618A7683CEC37844FB3D8E93ED623737334967C7EA847EFF4D3",
+     "ledger_index": 108450596,
+     "ctid": "C676D324002C0000",
+     "date": 848480361
+    },
+    "ledger_index": 108450596,
+    "hash": "38BCE16A8402126C0080FA475A5DF12734C584C5D26427CBB57F29F4DF602605",
+    "ledger_hash": "11558E57CA231A4F3E61A7E65BCEB25815301E27F0A1B2A87BD98F7D8E02CC75",
+    "close_time_iso": "2026-11-20T08:59:21Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

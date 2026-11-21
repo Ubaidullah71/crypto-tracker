@@ -1,0 +1,147 @@
+{
+ "_note": "IOU (token) Payment: no XRP row for the receiver, fee only for the sender.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450593 (captured 2026-11-20)",
+ "_account": "r46CTwHN6F2wY6GRWtyVVyJ1WjziFnssPd",
+ "result": {
+  "account": "r46CTwHN6F2wY6GRWtyVVyJ1WjziFnssPd",
+  "ledger_index_min": 108450593,
+  "ledger_index_max": 108450593,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Balance": {
+          "currency": "XPM",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "-10960.08145943774"
+         },
+         "Flags": 2228224,
+         "HighLimit": {
+          "currency": "XPM",
+          "issuer": "r46CTwHN6F2wY6GRWtyVVyJ1WjziFnssPd",
+          "value": "499735107"
+         },
+         "HighNode": "0",
+         "LowLimit": {
+          "currency": "XPM",
+          "issuer": "rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa",
+          "value": "0"
+         },
+         "LowNode": "77"
+        },
+        "LedgerEntryType": "RippleState",
+        "LedgerIndex": "5350D5656042A06721DCCDBD0F17A29ECE49D8DCE2A099657BF5268AF105257D",
+        "PreviousFields": {
+         "Balance": {
+          "currency": "XPM",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "-10939.06265943774"
+         }
+        },
+        "PreviousTxnID": "FF83B602771C65B1221314BDBA0C25DA137BE2BB8E079CC82DBA76F4799D0C2A",
+        "PreviousTxnLgrSeq": 108424026
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Balance": {
+          "currency": "XPM",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "2104898.61171068"
+         },
+         "Flags": 1114112,
+         "HighLimit": {
+          "currency": "XPM",
+          "issuer": "rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa",
+          "value": "0"
+         },
+         "HighNode": "28",
+         "LowLimit": {
+          "currency": "XPM",
+          "issuer": "rXPMusrUYj1t1DM2m3n6y1jjdTv3X81ZQ",
+          "value": "500000000"
+         },
+         "LowNode": "0"
+        },
+        "LedgerEntryType": "RippleState",
+        "LedgerIndex": "80B15B3776B0C682D641EFE46E84F29999560D60C82738F99F0A4FB04A3F0713",
+        "PreviousFields": {
+         "Balance": {
+          "currency": "XPM",
+          "issuer": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+          "value": "2104919.63051068"
+         }
+        },
+        "PreviousTxnID": "C5E48ED56B00E0D8F8350678E57F2FECB63CC2AC3AF117B46A3188221B39B981",
+        "PreviousTxnLgrSeq": 108450508
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rXPMusrUYj1t1DM2m3n6y1jjdTv3X81ZQ",
+         "Balance": "96515198",
+         "Flags": 0,
+         "OwnerCount": 2,
+         "Sequence": 89578342
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "90FA796FFF228D986A5F39F88BABB91E113E2A95204A13CDB33910E7DB7E9B09",
+        "PreviousFields": {
+         "Balance": "96515210",
+         "Sequence": 89578341
+        },
+        "PreviousTxnID": "C5E48ED56B00E0D8F8350678E57F2FECB63CC2AC3AF117B46A3188221B39B981",
+        "PreviousTxnLgrSeq": 108450508
+       }
+      }
+     ],
+     "TransactionIndex": 142,
+     "TransactionResult": "tesSUCCESS",
+     "delivered_amount": {
+      "currency": "XPM",
+      "issuer": "rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa",
+      "value": "21.0188"
+     }
+    },
+    "tx_json": {
+     "Account": "rXPMusrUYj1t1DM2m3n6y1jjdTv3X81ZQ",
+     "DeliverMax": {
+      "currency": "XPM",
+      "issuer": "rXPMxBeefHGxx2K7g5qmmWq3gFsgawkoa",
+      "value": "21.0188"
+     },
+     "Destination": "r46CTwHN6F2wY6GRWtyVVyJ1WjziFnssPd",
+     "Fee": "12",
+     "Memos": [
+      {
+       "Memo": {
+        "MemoData": "5061796D656E74207472616E73616374696F6E20696E69746961746564207669612058506D61726B65742E636F6D"
+       }
+      }
+     ],
+     "Sequence": 89578341,
+     "SigningPubKey": "ED8152E47FB9D6A858B616CEFE118C7287D496FFBD541D3C1DA29F3119D69CE78A",
+     "SourceTag": 20221212,
+     "TransactionType": "Payment",
+     "TxnSignature": "A0659DEDD981C1E5B65E01B5C15F0A4C35F10CF44FA641AEB429E66B6B0D2C1A4DAC0DFD6AD986E898E26273EDE069394DF9FF25EFAE70025AF91548DDFD0203",
+     "ledger_index": 108450593,
+     "ctid": "C676D321008E0000",
+     "date": 848480350
+    },
+    "ledger_index": 108450593,
+    "hash": "2BC72855E95AF0F94296FEDB68F5AEB04525D7DEA35E534A4AB71BB74E2E7906",
+    "ledger_hash": "3788DC34BBD78D3D28C638A1E83EFCB3CF95B420C2EE87A9B6F4CF40443A0939",
+    "close_time_iso": "2026-11-20T08:59:10Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

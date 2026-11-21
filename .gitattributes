@@ -1,0 +1,4 @@
+# Normalize line endings in the repository (Windows checkouts still get CRLF in the working tree if configured).
+* text=auto eol=lf
+*.png binary
+*.jpg binary

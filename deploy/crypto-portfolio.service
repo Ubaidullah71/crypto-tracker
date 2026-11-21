@@ -1,0 +1,40 @@
+# systemd unit for Crypto Portfolio (setup guide: docs/DEPLOY.md).
+# Install: sudo cp deploy/crypto-portfolio.service /etc/systemd/system/
+#          sudo systemctl daemon-reload && sudo systemctl enable --now crypto-portfolio
+[Unit]
+Description=Crypto Portfolio Discord bot
+Documentation=https://github.com/Ubaidullah71/crypto-tracker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=cryptobot
+Group=cryptobot
+WorkingDirectory=/opt/crypto-portfolio/app
+ExecStart=/usr/bin/node --disable-warning=ExperimentalWarning src/index.ts
+Environment=NODE_ENV=production
+Restart=always
+RestartSec=10
+# Gives the bot time to close the database cleanly.
+TimeoutStopSec=20
+
+# Hardening: the bot only needs outbound network access and write access to its own folder.
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/crypto-portfolio
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictNamespaces=true
+LockPersonality=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+UMask=0077
+MemoryMax=768M
+
+[Install]
+WantedBy=multi-user.target

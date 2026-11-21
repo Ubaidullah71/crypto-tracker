@@ -1,0 +1,23 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Your wallet list (addresses are private information)
+wallets.txt
+wallets.test.txt
+
+# Runtime data (database, logs, exports)
+data/
+*.db
+*.db-wal
+*.db-shm
+logs/
+
+# Dependencies / tooling
+node_modules/
+coverage/
+.vitest/
+*.log
+.DS_Store
+Thumbs.db

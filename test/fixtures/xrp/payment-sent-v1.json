@@ -1,0 +1,90 @@
+{
+ "_note": "XRP Payment sent (sender perspective), API v1 shape from rippled.",
+ "_source": "https://xrplcluster.com/ account_tx api_version=1 ledger 108450593 (captured 2026-11-20)",
+ "_account": "rExK8TgtWigYb1vx9uZTrZrPht7pdQzoQm",
+ "result": {
+  "account": "rExK8TgtWigYb1vx9uZTrZrPht7pdQzoQm",
+  "ledger_index_max": 108450593,
+  "ledger_index_min": 108450593,
+  "limit": 400,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rExK8TgtWigYb1vx9uZTrZrPht7pdQzoQm",
+         "Balance": "7454051",
+         "Flags": 0,
+         "OwnerCount": 12,
+         "Sequence": 79921278
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "8FC96F5F48561D8D6894F4B72361AFD1041F22EA58031E7BEC2C91B2DB62E676",
+        "PreviousFields": {
+         "Balance": "7475128",
+         "Sequence": 79921277
+        },
+        "PreviousTxnID": "49036CD20723DD483935856C8378166C840C24EA772D61EC59A6B467021CD31F",
+        "PreviousTxnLgrSeq": 108450581
+       }
+      },
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rUNEer3ptfFXnrenuaspvoZ1KsSgvnCpj5",
+         "Balance": "2518925110",
+         "Flags": 131072,
+         "OwnerCount": 2,
+         "Sequence": 89873894
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "D70B58590C15FA7778FFA073B6E81DFD122A3DEDB4B7C824FA4011F773E6EA72",
+        "PreviousFields": {
+         "Balance": "2518909139"
+        },
+        "PreviousTxnID": "49036CD20723DD483935856C8378166C840C24EA772D61EC59A6B467021CD31F",
+        "PreviousTxnLgrSeq": 108450581
+       }
+      }
+     ],
+     "TransactionIndex": 36,
+     "TransactionResult": "tesSUCCESS",
+     "delivered_amount": "15971"
+    },
+    "tx": {
+     "Account": "rExK8TgtWigYb1vx9uZTrZrPht7pdQzoQm",
+     "Amount": "15971",
+     "DeliverMax": "15971",
+     "Destination": "rUNEer3ptfFXnrenuaspvoZ1KsSgvnCpj5",
+     "DestinationTag": 230,
+     "Fee": "5106",
+     "Flags": 0,
+     "LastLedgerSequence": 108450611,
+     "Memos": [
+      {
+       "Memo": {
+        "MemoData": "5A6572706D6F6E204D697373696F6E20526577617264",
+        "MemoFormat": "6C6F616E2D666F72"
+       }
+      }
+     ],
+     "Sequence": 79921277,
+     "SigningPubKey": "ED9CD226C4B8A3166937B8852DB49E45859CF84DF6B4C6BB70422BF6E9A6778742",
+     "SourceTag": 13888813,
+     "TransactionType": "Payment",
+     "TxnSignature": "95F0F1A06122C004429EEF705EBF8FCFAD0B2F3DC317DC88E850CF6FB8F8EF3D20FE7DBF925C13DCC7B03F75B944A850AEC967BDF805FD524485B6B908905409",
+     "ctid": "C676D32100240000",
+     "date": 848480350,
+     "hash": "902C4D2831A6EA93F5216FB1EBA221FE2B84E84357A7ED02D2370443AB3D6E94",
+     "inLedger": 108450593,
+     "ledger_index": 108450593
+    },
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "status": "success"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "_note": "Payment that creates (funds) the destination account: CreatedNode.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450687 (captured 2026-11-20)",
+ "_account": "rpHpPMcK7wYEeqHMpZYXZk7tqR44cX41rG",
+ "result": {
+  "account": "rpHpPMcK7wYEeqHMpZYXZk7tqR44cX41rG",
+  "ledger_index_min": 108450687,
+  "ledger_index_max": 108450687,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rh3xv8DWPBaU8k8jGjx8KW1xLKpwpwLwdR",
+         "Balance": "11845141",
+         "Flags": 0,
+         "OwnerCount": 0,
+         "Sequence": 108305178
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "0A1AE1BB6DBCB6B18C1977A61250BEC0D65C8A8F7D4EFE3672DEA856CAC3B276",
+        "PreviousFields": {
+         "Balance": "12993428",
+         "Sequence": 108305177
+        },
+        "PreviousTxnID": "452E4AB12557DBF96F42EE6FC4BC4EA9EB6AEAAAF5597F41D32238EEB90D40CA",
+        "PreviousTxnLgrSeq": 108450647
+       }
+      },
+      {
+       "CreatedNode": {
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "FD2760AC0D808AED37C249D6C8E6D932B01531B07B700C3CD487DA70C03F4F0E",
+        "NewFields": {
+         "Account": "rpHpPMcK7wYEeqHMpZYXZk7tqR44cX41rG",
+         "Balance": "1148277",
+         "Sequence": 108450687
+        }
+       }
+      }
+     ],
+     "TransactionIndex": 16,
+     "TransactionResult": "tesSUCCESS",
+     "delivered_amount": "1148277"
+    },
+    "tx_json": {
+     "Account": "rh3xv8DWPBaU8k8jGjx8KW1xLKpwpwLwdR",
+     "DeliverMax": "1148277",
+     "Destination": "rpHpPMcK7wYEeqHMpZYXZk7tqR44cX41rG",
+     "Fee": "10",
+     "Flags": 2147483648,
+     "LastLedgerSequence": 108450703,
+     "Sequence": 108305177,
+     "SigningPubKey": "02CB181A9273CEFCCD0F86D0E86CEF03E73F4F9EADAECFFC998D68BD484992D71E",
+     "TransactionType": "Payment",
+     "TxnSignature": "304402201AFCF0FBDF7C286051003460038F4222383AAC4287C98E621687C12F3E37896002206AC65DA21B174817E8EC0533E1DA3C830561EF7CF9159C0002223D9AE6455637",
+     "ledger_index": 108450687,
+     "ctid": "C676D37F00100000",
+     "date": 848480712
+    },
+    "ledger_index": 108450687,
+    "hash": "77E8B2158DD8482DE6C5C804DEF3184852236BC86AD33494C491248EDDE0E0A7",
+    "ledger_hash": "88F9FC90E225888D876E20E1E8AD7127E91BF892A8EEDC985E1A20906E60ED7E",
+    "close_time_iso": "2026-11-20T09:05:12Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "blockbook": {
+  "coin": "Bitcoin",
+  "network": "BTC",
+  "host": "backend5",
+  "version": "0.6.0",
+  "gitCommit": "f666e8a",
+  "buildTime": "2026-11-18T09:19:56+00:00",
+  "syncMode": true,
+  "initialSync": false,
+  "inSync": true,
+  "bestHeight": 976716,
+  "lastBlockTime": "2026-11-20T09:13:19.186367674Z",
+  "inSyncMempool": true,
+  "lastMempoolTime": "2026-11-20T10:17:01.214173714+01:00",
+  "mempoolSize": 63594,
+  "decimals": 8,
+  "dbSize": 1150515904124,
+  "hasFiatRates": true,
+  "currentFiatRatesTime": "2026-11-20T09:17:02.585786981Z",
+  "historicalFiatRatesTime": "2026-11-20T00:00:00Z",
+  "about": "Blockbook - blockchain indexer for Trezor Suite https://trezor.io/trezor-suite. Do not use for any other purpose."
+ },
+ "backend": {
+  "chain": "main",
+  "blocks": 976716,
+  "headers": 976716,
+  "bestBlockHash": "0000000000000000000108d29346f5bccd82ab4032167f82ded4ce6684885734",
+  "difficulty": "134823837323272.7",
+  "sizeOnDisk": 894270680550,
+  "version": "310200",
+  "subversion": "/Satoshi:31.2.0/",
+  "protocolVersion": "70016"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "_note": "OfferCreate tecKILLED (fill-or-kill): only the fee moves.",
+ "_source": "https://s2.ripple.com:51234/ account_tx api_version=2 ledger 108450682 (captured 2026-11-20)",
+ "_account": "rDi2VysuPsU5oQRGPDTPiR9YPd34kzK9m8",
+ "result": {
+  "account": "rDi2VysuPsU5oQRGPDTPiR9YPd34kzK9m8",
+  "ledger_index_min": 108450682,
+  "ledger_index_max": 108450682,
+  "transactions": [
+   {
+    "meta": {
+     "AffectedNodes": [
+      {
+       "ModifiedNode": {
+        "FinalFields": {
+         "Account": "rDi2VysuPsU5oQRGPDTPiR9YPd34kzK9m8",
+         "Balance": "21361133757",
+         "Flags": 0,
+         "OwnerCount": 1,
+         "Sequence": 103460710
+        },
+        "LedgerEntryType": "AccountRoot",
+        "LedgerIndex": "B98C565D2507F7A124DC93A12FCC3097A3F622628EC82D912D946498CCFA1897",
+        "PreviousFields": {
+         "Balance": "21361133767",
+         "Sequence": 103460709
+        },
+        "PreviousTxnID": "75BCCE2A7152C05DBD8009F6C19BEDCE5409335C47D74BC87377C48501048290",
+        "PreviousTxnLgrSeq": 108450669
+       }
+      }
+     ],
+     "TransactionIndex": 13,
+     "TransactionResult": "tecKILLED"
+    },
+    "tx_json": {
+     "Account": "rDi2VysuPsU5oQRGPDTPiR9YPd34kzK9m8",
+     "Fee": "10",
+     "Flags": 131072,
+     "LastLedgerSequence": 108450685,
+     "Sequence": 103460709,
+     "SigningPubKey": "EDD1D0AD9BCE9CFEAF23F7991EC87621A68C481B15CD5C6F4BE6D3F1B5CF371E92",
+     "TakerGets": "21358133767",
+     "TakerPays": {
+      "currency": "524C555344000000000000000000000000000000",
+      "issuer": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+      "value": "20451.366722"
+     },
+     "TransactionType": "OfferCreate",
+     "TxnSignature": "767F6272C1C72BEE537F982E64C822A06EB3F798B8A30C8A2F69F1EAFA2D32C91007292F43824985A0BE8192E86EAD1A4DBCB7355D4004C6C690E040DE011209",
+     "ledger_index": 108450682,
+     "ctid": "C676D37A000D0000",
+     "date": 848480692
+    },
+    "ledger_index": 108450682,
+    "hash": "26C84129F128A043D7FE17848571AC363B57F47130FD38AD8F02074E0B9B6FB6",
+    "ledger_hash": "E92B8DD3740F11A43724EECDC2A3D407B3CEA5C43B830F5DF1F310C35F5816C9",
+    "close_time_iso": "2026-11-20T09:04:52Z",
+    "validated": true
+   }
+  ],
+  "validated": true,
+  "limit": 400,
+  "status": "success"
+ }
+}
